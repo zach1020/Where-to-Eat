@@ -35,11 +35,11 @@ with open('list_of_restaurants.json') as json_file:
 		name = restaurant['name']
 		names.append(name)
 
-print(names)
+#print(names) #Used for testing
 
 # Randomly choose a name from the list
 choice = random.choice(names)
-#print(choice)
+#print(choice) # Used for testing
 
 # Open up a browser and do a Google search for "{choice} near me {my_city}"
 # Strip choice of punctionation and spaces
